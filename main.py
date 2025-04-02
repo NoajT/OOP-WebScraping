@@ -31,7 +31,7 @@ class Email:
         port = 465
 
         username = "joan.townsend.code@gmail.com"
-        password = "hvsefrubmwldqhso"
+        password = os.getenv("WEBSCRAPE")
 
         receiver = "joan.townsend.code@gmail.com"
         context = ssl.create_default_context()
